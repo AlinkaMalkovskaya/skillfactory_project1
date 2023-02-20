@@ -2,6 +2,10 @@
     src:url();
     font-family: 'Nunito Sans';
 } */
+main{
+    display: block;
+
+}
 body{
     margin:0;
     font-family: 'Nunito Sans', Arial;
@@ -84,7 +88,7 @@ body * {
 }
 .cont_part1{
     position: relative;
-    margin-right: 55%;
+    margin-left: 42px; 
     width: 520px;
     z-index: 1;
 }
@@ -144,11 +148,92 @@ body * {
     margin-top: 10px;
     font-family: 'Nunito Sans', Arial;    
 }
+.cont2{
+display: flex;
+}
 .part2{
     background-color: black;
     background-size: cover;
     height: 1074px;
     padding-top: 0;
-    margin:0;
+    margin-top:-16px;
     position: relative;
+    display: block;
+}
+.cont_part2_1{
+    margin-left: 42px; 
+    margin-top: 176px;
+    width: 492px;
+    color:white;
+    
+}
+.cont_part2_2{
+    margin-top: 107px;
+    color:white;
+    width: fit-content;
+}
+.part2_navigation{
+    list-style: none;
+    display: flex;
+}
+ul.part2_navigation {
+    padding-inline-start: 0px;
+}
+.part2_navigation_item{
+    margin-right: 40px;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+    padding-bottom: 6px;
+}
+.part2_navigation_item a{
+    text-decoration: none;
+    color: white;
+}
+.part2_navigation_item:first-child{
+    color: #E3B873;
+    border-color: #E3B873;
+    border-block-end: solid;
+    border-width: 1px;
+}
+.part2_title{
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.part2_content{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: 7px;
+}
+.part2_content_line{
+    display: flex;
+}
+.part2_little_title{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 5px;
+}
+.part2_content_line_box{
+ width: 190px;
+}
+
+.part2_dotted_menu{
+    max-width: 1250px;
+    margin-top: -20px;
+    padding-left: 42px;
 }
