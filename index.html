@@ -110,15 +110,15 @@
                                 your apartment. You can watch the live broadcast from one of our facilities!<br>
                                 Leave a request below and you will receive a link to the broadcast.</p>
                         </div> 
-                        <form class="cont3_f">
+                        <form class="cont3_f" action="" method="get">
                                 <div class="cont3_form">
-                                <label class="cont3_form_box">Name<br>
-                                    <input class="cont3_input" type="text" placeholder="What is your name:" name="name" style="color: blue;">
-                                </label>
-                                <label class="cont3_form_box">Phone<br>
-                                    <input class="cont3_input" type="tel" placeholder="Your phone number:" name="phone_number">
-                                </label>
-                                <button class="button3" type="submit">Submit</button>
+                                    <label class="cont3_form_box">Name<br>
+                                        <input class="cont3_input" type="text" placeholder="What is your name:" name="name" id="name" required>
+                                    </label>
+                                    <label class="cont3_form_box">Phone<br>
+                                        <input class="cont3_input" type="tel" placeholder="Your phone number:" name="phone_number" id="phone_number" required>
+                                    </label>
+                                    <input class="button3" type="submit" value="Submit">
                                 </div>
                                 <div class="cont3_agreement">
                                     <input class="cont3_agreement_input" type="checkbox" name="agree" checked>
@@ -191,6 +191,60 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="part5">
+            <div class="cont5_1">
+                <img src="images/part5_1.png">
+            </div>
+            <div class="cont5_2">
+                <div class="cont5_2_list">
+                    <img src="images/part5_2.png">
+                    <h2 class="cont5_2_number">01</h2>
+                    <p class="cont5_2_list_text">Our specialist will arrive for measurements per day<br>contact, or appoint a date convenient for you</p>
+                </div> 
+                <div class="cont5_2_list">
+                    <img src="images/part5_2.png">
+                    <h2 class="cont5_2_number">02</h2>
+                    <p class="cont5_2_list_text">Free metering</p>
+                </div>
+                <div class="cont5_2_list">
+                    <img src="images/part5_2.png">
+                    <h2 class="cont5_2_number">03</h2>
+                    <p class="cont5_2_list_text">Free consultation</p>
+                </div>
+                <div class="cont5_2_list">
+                    <img src="images/part5_2.png">
+                    <h2 class="cont5_2_number">04</h2>
+                    <p class="cont5_2_list_text">Get a cost estimate and<br>the timing of your future repairs</p>
+                </div>   
+            </div>
+            <div>
+                <form class="cont5_form" action="" method="get">
+                    <h3 class="cont5_form_title">Leave a request for free<br>departure of the measurer</h3>
+                    <div class="cont5_form_form">
+                        <label class="cont5_form_box">Name<br>
+                            <input class="cont5_input" type="text" placeholder="What is your name:" name="name" id="name" required>
+                        </label>
+                        <label class="cont5_form_box">Phone<br>
+                            <input class="cont5_input" type="tel" placeholder="Your phone number:" name="phone_number" id="phone_number" required>
+                        </label>
+                        <label class="cont5_form_box">Email<br>
+                            <input class="cont5_input" type="email" placeholder="Your email:" name="email" id="email" required>
+                        </label>
+                    </div>
+                    <div class="cont5_agreement">
+                        <input class="cont5_agreement_input" type="checkbox" name="agree" checked>
+                        <span class="cont5_agreement_text">I agree to the processing of personal data.</span>
+                    </div>
+                    <div class="cont5_button_box">
+                        <input class="button5" type="submit" value="Call the measurer">
+                    </div>
+                    <div class="cont5_logo_box">
+                        <img class="cont5_logo" src="images/part5_3.png" alt="money logo">
+                        <span class="cont5_logo_text">Help save 10 - 20% of the <br>cost of materials</span>
+                    </div>
+                </form>
             </div>
         </section>
     </main>

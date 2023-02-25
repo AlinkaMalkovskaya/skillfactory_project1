@@ -341,7 +341,7 @@ ul.part2_navigation {
     margin-top: -5px;
     background-color: none;
 }
-input::placeholder {
+input.cont3_input::placeholder {
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -487,4 +487,188 @@ input[type='checkbox']{
     width: 228px;
     height: 54px;
     font-family: 'Yeseva One','Times New Roman', Times, serif;
+}
+
+
+.part5{
+    background-color: white;
+    background-size: cover;
+    height: 967px;
+    padding-top: 0;
+    /* margin-top:-16px; */
+    position: relative;
+    display: flex;
+}
+.cont5_1{
+    width: 703px;
+    height: 645px;
+}
+.cont5_2{
+    margin-left: -454px;
+    margin-top: 38px;
+}
+.cont5_2_list{
+    display: flex;
+    margin-top: 56px;
+}
+.cont5_2_number{
+    margin-left: -54px;
+    margin-top: 27px;
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.cont5_2_list_text{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    align-self: center;
+}
+.cont5_form{
+    height: 509px;
+    width: 506px;
+    background-color: black;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 210px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    /* display: flexbox; */
+}
+.cont5_form_title{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+    width: 506px;
+}
+.cont5_form_form{
+    margin-top: 39px;
+    margin-left: 49px;
+    display: flex;
+    flex-direction: column;
+}
+.cont5_form_box{
+    border-color:rgba(255, 255, 255, 0.15);
+    border-block-end: solid;
+    border-width: 1px;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color:rgba(255, 255, 255, 0.5);
+    width: 408px;
+    margin-bottom: 48px;
+}
+.cont5_input{
+    border-style: none;
+    height: 35px;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+    margin-top: -5px;
+    background-color: black;
+    width: 408px;
+}
+input.cont5_input::placeholder {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+.cont5_agreement{
+    width: 408px;
+    display: flex;
+    justify-content:center;
+    margin-top: -35px;
+    margin-left: -10px;
+}
+.cont5_agreement_input{
+    margin:0;
+}
+.cont5_agreement_text{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
+    margin-left: 18px;
+    color: white;
+}
+input.cont5_agreement_input:checked{
+    width: 8px;
+    height: 8px;
+    content: '';
+    color: black!important;
+    accent-color: black;
+    border-color: black;
+}
+input.cont5_agreement_input:checked::before{
+    content: "\2714";
+    color: white !important;
+    text-align: center;
+    background-color: #E3B873;
+    padding: 0.5px 3px 0.8px 3px;
+    border-radius: 3px;
+    border-color: #E3B873;
+}
+.cont5_button_box{
+    display: flex;
+    justify-content: end;
+    width: 408px;
+    margin-top: 29px;
+    margin-left: 49px;
+}
+.button5{
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color:white;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 13px; 
+    line-height: 21px; 
+    text-align: center;
+    width: 213px;
+    height: 51px;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+.cont5_logo_box{
+    margin-top: 38px;
+    display: flex;
+}
+.cont5_logo_text{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    align-self: center;
+    margin-bottom: 20px;
 }
