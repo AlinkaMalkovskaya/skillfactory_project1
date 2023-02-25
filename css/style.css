@@ -401,3 +401,90 @@ input[type='checkbox']{
     text-align: left;
     margin-left: 8px;
 }
+
+
+.part4{
+    background-color: white;
+    background-size: cover;
+    height: 830px;
+    padding-top: 0;
+    /* margin-top:-16px; */
+    position: relative;
+    display: block;
+}
+.part4_title{
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+.part4_logo{
+    width: 114px;
+    height: 28px;
+    margin: 0 auto;
+}
+.cont4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.cont4_box{
+    width: 392px;
+    height: 421px;
+    display: block;
+}
+.cont4_content{
+    position: absolute;
+    background-color: white;
+    margin-top: -127px;
+    margin-left: 31px;
+    width: 330px;
+    height: 286px;
+    z-index: 1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+.cont4_text{
+    margin-top: 25px;
+    margin-left: 34px;
+    height: 235px;
+}
+.cont4_title{
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+.cont4_list{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    margin-left: -24px;
+    margin-top: -10px;
+}
+.cont4_button{
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: auto;
+    color:white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 228px;
+    height: 54px;
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
+}
