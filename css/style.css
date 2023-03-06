@@ -804,7 +804,7 @@ input.cont5_agreement_input:checked::before{
     padding-top: 24px;
     /* padding-left: 20px; */
     width: 324px;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -843,7 +843,7 @@ input.cont5_agreement_input:checked::before{
     filter: brightness(100%) !important;
 }
 .part8_f_title{
-    font-family: 'Yeseva One';
+    font-family: 'Yeseva One','Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -855,4 +855,76 @@ input.cont5_agreement_input:checked::before{
 }
 .part8_f_input12{
     display: flex;
+    margin-left: 181px;
+}
+.part8_input_box{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    border-color:rgba(255, 255, 255, 0.15);
+    border-block-end: solid;
+    border-width: 1px;
+    margin-right: 58px;
+    margin-top: 35px;
+}
+.part8_input{
+    border-style: none;
+    height: 35px;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+    /* margin-top: -5px; */
+    background-color: black;
+    width: 231px;
+}
+input.part8_input::placeholder {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+.part8_f_input3{
+    display: flex;
+    margin-left: 181px;   
+}
+.part8_input3_box{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    border-color:rgba(255, 255, 255, 0.15);
+    border-block-end: solid;
+    border-width: 1px;
+    margin-top: 35px;
+}
+.part8_input3{
+    border-style: none;
+    height: 35px;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+    /* margin-top: -5px; */
+    background-color: black;
+    width: 517px;
+}
+input.part8_input3::placeholder {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
 }
